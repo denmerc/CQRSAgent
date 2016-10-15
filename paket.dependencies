@@ -4,4 +4,4 @@ nuget FAKE
 nuget Suave
 nuget Newtonsoft.Json
 
-github richardadalton/cqagent src/CQAgent.fsx
+//github richardadalton/cqagent src/CQAgent.fsx

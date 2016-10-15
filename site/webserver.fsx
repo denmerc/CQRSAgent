@@ -1,5 +1,5 @@
 #I "../packages/FAKE/tools/"
-#I "../paket-files/richardadalton"
+//#I "../paket-files/richardadalton"
 
 #r "../packages/FAKE/tools/FakeLib.dll"
 open Fake
@@ -13,11 +13,11 @@ open Suave.Web
 open Suave.Types
 
 
-#load "cqagent/src/CQAgent.fsx"
+#load "CQAgent.fsx"
 open CQAgent
 
 #load "Restful.fsx"
-open EloRateApi.Rest
+open EloRateApi.Rest;;
 
 type PlayerResource = {
   Id : int
